@@ -16,4 +16,3 @@ casper.test.begin 'Product calculates sale price', 1, (test) ->
   product = new Product('Example', 5)
   test.assertEquals product.sale_price(0.1), 4.5
   test.done()
-
